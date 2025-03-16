@@ -1,0 +1,31 @@
+.alert {
+    color: red;
+    font-family:  Helvetica, sans-serif;
+}
+
+.name-list__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: silver;
+    padding: 2px 5px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.name-list__button {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+    color: red;
+}
+
+.name-list__button:hover {
+    background-color: whitesmoke;
+}
